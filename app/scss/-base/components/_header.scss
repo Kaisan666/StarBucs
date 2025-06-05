@@ -1,0 +1,22 @@
+.header{
+    padding-top: 48px;
+
+    &__inner{
+        display: flex;
+        gap: 94px;
+        align-items: center;
+    }
+    &__logo-link{
+        font-weight: 800;
+        font-size: 37px;
+line-height: 109%;
+    }
+    &__nav-links{
+        display: flex;
+        gap: 95px;
+        
+        a{
+            color: $mainColor;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+/* ================================ Fonts ================================ */
+@import './fonts.scss';
+
+/* ================================ Animations ================================ */
+@import './_animations/**/*.scss';
+
+/* ================================ Styles ================================ */
+@import './_styles/*.scss';
+
+/* ================================ Reset ================================ */
+@import './reset.scss';
+
+/* ================================ Base ================================ */
+@import './-base/**/*.scss';
+
+
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: $bgBlack;
+    color: $mainColor;
+    font-family: $FFInter;
+}
+.accent-text{
+    background: linear-gradient(210deg, $darkGreen 0%, $lightGreen 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.container{
+    max-width: 1294px;
+    padding: 0 40px;
+    margin: 0 auto;
+    @include mobile{
+        padding: 0 20px;
+    }
+}

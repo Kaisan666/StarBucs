@@ -1,0 +1,59 @@
+.new-cafe {
+    display: flex;
+
+    &__left {
+        flex: 1 1 574px;
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+
+        h1 {
+            font-size: 80px;
+            font-weight: 800;
+        }
+
+    }
+
+    &__description {
+        font-size: 20px;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 16px;
+        a{
+            border-radius: 83px;
+        }
+    }
+    &__select-link{
+        font-weight: 600;
+        padding: 20px 78px;
+        color: #fff;
+    }
+    &__more-link{
+        font-weight: 400;
+        padding: 20px 54px;
+        color: $mainColor;
+        position: relative;
+        &::before{
+            content: " ";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border: 1px solid transparent;
+            border-radius: 83px;
+            border-image: linear-gradient(168deg, $mainColor 0%, transparent 100%);
+            border-image-slice: 1;
+        }
+    }
+
+    &__statistics {
+        display: flex;
+        gap: 46px;
+    }
+
+    &__right {
+        flex: 1 1 472px;
+        background-color: #fff;
+    }
+}

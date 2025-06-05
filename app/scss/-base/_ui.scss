@@ -1,0 +1,8 @@
+.btn{
+    &--green{
+        background: linear-gradient(210deg, $darkGreen 0%, $lightGreen 100%);
+    }
+    &--black{
+        background: $bgBlack;
+    }
+}
