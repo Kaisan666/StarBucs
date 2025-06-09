@@ -17,4 +17,7 @@ import '../scss/index.scss';
 // import noUiSlider from 'nouislider';
 // import Scrollbar from 'smooth-scrollbar';
 
+import "./swipers"
+
+
 //// ================================ Code ======================================

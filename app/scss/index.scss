@@ -13,12 +13,46 @@
 /* ================================ Base ================================ */
 @import './-base/**/*.scss';
 
+.circle{
+    background: linear-gradient(245deg, #237249 0%, #35c66b 100%);
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+}
+.swiper {
+  .swiper-wrapper {
+    height: auto;
+  }
 
-
-
+  .swiper-slide {
+    height: auto;
+  }
+}
+.have-badge{
+    &::after{
+        content: 'We have';
+        position: absolute;
+        top: 43%;
+        left: 51.5%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-weight: 500;
+        font-size: 32px;
+        text-transform: uppercase;
+        text-align: center;
+        width: min-content;
+        color: #fff;
+      }
+}
+.wrapper{
+    section:not(:last-child){
+        margin-bottom: 100px;
+    }
+}
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: $bgBlack;

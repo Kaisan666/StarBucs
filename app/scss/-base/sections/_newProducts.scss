@@ -1,0 +1,35 @@
+.new-products {
+  &__header {
+    display: flex;
+    gap: 72px;
+  }
+  &__title {
+    max-width: 392px;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 109%;
+  }
+  &__text {
+    max-width: 444px;
+    font-size: 20px;
+    line-height: 163%;
+  }
+  .swiper{
+    padding-left: 100px;
+  }
+  .swiper-slide{
+    max-width: 277px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    
+    border: 2px solid transparent;
+    padding: 60px 30px 32px;
+    background: linear-gradient(#121517, #121517) padding-box, linear-gradient(131deg, #d9d9d9 0%, transparent 53%) border-box, linear-gradient(135deg, #d9d9d9 -1%, transparent 29%) border-box, linear-gradient(326deg, #d9d9d9 0%, transparent 27%) border-box, linear-gradient(308deg, #d9d9d9 6%, transparent 43%) border-box;
+border-radius: 29px;
+    &-img {
+      max-width: 186px;
+    }
+  }
+}

@@ -1,8 +1,13 @@
 include layouts/modules/_m-head.pug
 include layouts/components/header.pug
 include layouts/components/newCafe.pug
+include layouts/components/delicious.pug
+include layouts/components/newProducts.pug
 html(lang='ru')
   +m-head
   body
-    +header
-    +newCafe
+    .wrapper
+      +header
+      +newCafe
+      +delicious
+      +newProducts
