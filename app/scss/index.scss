@@ -21,6 +21,12 @@
     border-radius: 100%;
 }
 .swiper {
+    &-container{
+        max-width: 1294px;
+    padding: 0 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    }
   .swiper-wrapper {
     height: auto;
   }

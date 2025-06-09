@@ -1,0 +1,44 @@
+.events {
+    &__header {
+        display: flex;
+        justify-content: end;
+        gap: 72px;
+    }
+
+    &__title {
+        max-width: 392px;
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 109%;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 163%;
+        max-width: 457px;
+        padding-top: 30px;
+    }
+    &__top-row,
+    &__bottom-row{
+        display: flex;
+        gap: 24px;
+    }
+    .swiper{
+        &-slide{
+            display: flex;
+        }
+    }
+    &__top-card{
+        max-width: 50%;
+    }
+    &__bottom-card{
+        max-width: calc(100% / 3);
+    }
+
+    &-card {
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+}

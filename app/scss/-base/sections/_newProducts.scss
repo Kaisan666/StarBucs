@@ -3,33 +3,86 @@
     display: flex;
     gap: 72px;
   }
+
   &__title {
     max-width: 392px;
     font-weight: 800;
     font-size: 80px;
     line-height: 109%;
   }
+
   &__text {
     max-width: 444px;
     font-size: 20px;
     line-height: 163%;
   }
-  .swiper{
+
+  .swiper {
     padding-left: 100px;
   }
-  .swiper-slide{
+
+  .swiper-slide {
     max-width: 277px;
   }
+
   &__card {
     display: flex;
     flex-direction: column;
-    
+    gap: 32px;
     border: 2px solid transparent;
     padding: 60px 30px 32px;
     background: linear-gradient(#121517, #121517) padding-box, linear-gradient(131deg, #d9d9d9 0%, transparent 53%) border-box, linear-gradient(135deg, #d9d9d9 -1%, transparent 29%) border-box, linear-gradient(326deg, #d9d9d9 0%, transparent 27%) border-box, linear-gradient(308deg, #d9d9d9 6%, transparent 43%) border-box;
-border-radius: 29px;
+    border-radius: 29px;
+
     &-img {
       max-width: 186px;
     }
+  }
+
+}
+
+.cappuccino {
+  &::after {
+    content: url("../../../assets/images/coffees/cappuccino.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+}
+
+.fast-brown {
+  &::after {
+    content: url("../../../assets/images/coffees/fastCoffee.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+}
+
+.fast-yellow {
+  &::after {
+    content: url("../../../assets/images/coffees/fastYellowCoffee.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+}
+
+.swiper{
+  &__ui{
+    display: flex;
+    gap: 25px;
+  }
+  &__prev-btn,
+  &__next-btn{
+    padding: 34px 21.5px;
+    border: 2px solid green;
+    border-radius: 29px;
   }
 }
