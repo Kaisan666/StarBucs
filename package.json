@@ -51,8 +51,8 @@
     "terser-webpack-plugin": "^5.3.1",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2",
-    "webpack-glob-loader": "^1.0.0",
-    "webpack-dev-server": "^4.7.4"
+    "webpack-dev-server": "^4.7.4",
+    "webpack-glob-loader": "^1.0.0"
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.25",
@@ -65,7 +65,7 @@
     "jshint": "^2.13.4",
     "nouislider": "^15.6.0",
     "smooth-scrollbar": "^8.7.4",
-    "swiper": "^8.0.5",
+    "swiper": "^11.2.8",
     "validate.js": "^0.13.1"
   }
 }

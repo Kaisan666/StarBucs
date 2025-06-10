@@ -1,8 +1,10 @@
 import Swiper from 'swiper/bundle';
+import { Grid } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import "swiper/css/grid"
 
 const delicious = document.querySelector('.new-products');
 if (delicious) {
@@ -17,9 +19,9 @@ if (events) {
     slidesPerView: "auto",
     // slidesPerView: 2,
     spaceBetween: 30,
-    grid: {
-        rows: 2,
-        fill: 'row',
-      },
+    grid : {
+      rows: 2,
+      fill: 'row',
+    },
   });
 }
