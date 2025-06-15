@@ -1,0 +1,48 @@
+.footer {
+    background-color: $ultraBlack;
+    padding: 36px 0;
+  &__logo-link {
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 109%;
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: start;
+  }
+  &__pages {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    padding-top: 15px;
+    &-title{
+        font-weight: 400;
+font-size: 20px;
+    }
+    &-item{
+        margin-top: 8px;
+        a{
+        font-weight: 400;
+        color: $mainColor;
+        font-size: 20px;
+        opacity: 0.43;
+        }
+    }
+
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+}
