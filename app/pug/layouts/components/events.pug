@@ -1,26 +1,47 @@
 mixin events
-    .events
+    section.events
         .events__header.container
             .events__text Only in 2021 we have made more than 100,000 orders for you, your loved ones, all of you, and in 2022 we are ready to destroy the market
             h2.events__title Our New<br>
                 span.accent-text Events
-        .wrapper-swiper
-            .swiper.swiper-container
+        .swiper-container
+            .swiper
                 .swiper-wrapper
                     .swiper-slide
-                        .events__top-card.events-card
-                            .events-card__title TWO COFFEE <br> FOR 1 PRICE
-                            .events-card__btn More
-                        .events__top-card.events-card
-                            .events-card__title KITCHEN <br> TOUR
-                            .events-card__btn More
-                    .swiper-slide
-                        .events__bottom-card.events-card
-                            .events-card__title FREE COFFEE <br> FOR 3 COFFEE
-                            .events-card__btn More
-                        .events__bottom-card.events-card
-                            .events-card__title WHERE ARE YOU <br> CHOOSE US?
-                            .events-card__btn More
-                        .events__bottom-card.events-card
-                            .events-card__title OUR <br> INSTAGRAM
-                            .events-card__btn More
+                        .events__top
+                            .events__top-card.events-card
+                                .events-card__img 
+                                    .gray-filter
+                                    img(src="/assets/images/twoCoffee.png", alt="")
+                                .events-card__content
+                                    .events-card__title TWO COFFEE <br> FOR 1 PRICE
+                                    a(href="#").events-card__btn.btn.btn--green More
+                            .events__top-card.events-card
+                                .events-card__img 
+                                    .gray-filter
+                                    img(src="/assets/images/kitchenTour.png", alt="")
+                                .events-card__content
+                                    .events-card__title KITCHEN <br> TOUR
+                                    a(href="#").events-card__btn.btn.btn--green More
+                        .events__bottom
+                            .events__bottom-card.events-card
+                                .events-card__img 
+                                    .gray-filter
+                                    img(src="/assets/images/freeCoffee.png", alt="")
+                                .events-card__content
+                                    .events-card__title FREE COFFEE <br> FOR 3 COFFEE
+                                    a(href="#").events-card__btn.btn.btn--green More
+                            .events__bottom-card.events-card
+                                .events-card__img 
+                                    .gray-filter
+                                    img(src="/assets/images/ourInstagram.png", alt="")
+                                .events-card__content
+                                    .events-card__title OUR <br> INSTAGRAM
+                                    a(href="#").events-card__btn.btn.btn--green More
+                            .events__bottom-card.events-card
+                                .events-card__img 
+                                    .gray-filter
+                                    img(src="/assets/images/chooseUs.png", alt="")
+                                .events-card__content
+                                    .events-card__title WHERE ARE YOU <br> CHOOSE US?
+                                    a(href="#").events-card__btn.btn.btn--green More
