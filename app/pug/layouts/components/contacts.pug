@@ -1,0 +1,24 @@
+mixin contacts 
+    section.contacts
+        .contacts__content.container
+            .contacts__left
+                    h2.contacts__left-title Our <br>
+                        span.accent-text Contacts 
+                    .contacts__left-text Have time to buy the most harmonious drinks in the new Starbucks coffee and don't forget about the discount!
+                    .contacts__socials
+                        .contacts__socials-card
+                            .contacts__socials-img
+                                img(src="/assets/icons/insta.svg", alt="")
+                            .contacts__socials-content @supercoffee
+                        .contacts__socials-card
+                            .contacts__socials-img
+                                img(src="/assets/icons/phone.svg", alt="")
+                            .contacts__socials-content +7-999-999-99-99
+            .contacts__right 
+                .contacts__right-img
+                    img(src="/assets/images/contacts.png", alt="")
+                .contacts__right-badge.have-badge
+                    svg(width="178" height="178")
+                        use(xlink:href="/assets/icons/sprite.svg#weHave")  
+            
+                            
