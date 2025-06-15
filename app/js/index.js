@@ -2,6 +2,7 @@
 //scss
 // import 'bootstrap/dist/css/bootstrap-grid.css';
 // import 'nouislider/dist/nouislider.css';
+import "./swipers"
 import '../scss/index.scss';
 
 //js
@@ -17,7 +18,7 @@ import '../scss/index.scss';
 // import noUiSlider from 'nouislider';
 // import Scrollbar from 'smooth-scrollbar';
 
-import "./swipers"
+
 
 
 //// ================================ Code ======================================

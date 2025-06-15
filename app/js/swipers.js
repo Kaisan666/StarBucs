@@ -17,13 +17,6 @@ const events = document.querySelector('.events');
 if (events) {
   const eventsSwiper = new Swiper(events.querySelector('.swiper'), {
     slidesPerView: "auto",
-    // slidesPerView: 2,
-    // spaceBetween: 30,
-    // slidesPerColumn : 2,
     freeMode: true,
-    grid : {
-      rows: 2,
-    //   fill: 'row',
-    },
   });
 }
